@@ -1,3 +1,11 @@
+## Release 0.2.0
+
+### Features
+
+* **Mark plugin output as sensitive**
+
+  Output from the PKCS7 decrypt task is now marked as sensitive so that it is not logged by Bolt.
+
 ## Release 0.1.1
 
 ### Bug fixes

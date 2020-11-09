@@ -35,7 +35,7 @@ class PKCS7Decrypt < TaskHelper
   end
 
   def task(**opts)
-    { value: decrypt(opts) }
+    { _sensitive: { value: decrypt(opts) } }
   end
 end
 
